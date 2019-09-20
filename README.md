@@ -30,7 +30,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-The difference is that .map returns a new array of elements while in turn of passing each element back to the callback.
+The difference is that .map returns a new array of elements while foreach doesnt return anything back. 
 
 2. What is the difference between a function and a method?
 
@@ -38,14 +38,17 @@ A function returns a value and is called by name, but a method is an internal pa
 
 3. What is closure?
 
-Its a function inside a scope that is saved to be recalled for a later time from outside the scope. 
+Its a function inside a scope that lets nested functions to use variables of the parent function .
 
 4. Describe the four rules of the 'this' keyword.
 
-    1.can the function be called by 'new' 
-    2.can the function be called by bind, call, or apply
-    3.is the function called in as a method , obj.functrion?
-    4.is the function called in the global scope
+    1. Window and Global object binding, it is calling the window object. 
+
+    2.Implicit binding, refers to anything before a period when a function is used in a block of code. 
+
+    3.New binding, a constructor function that made an object. 
+
+    4.Explicit binding, using a call/apply method 
 
 5. Why do we need super() in an extended class?
 
